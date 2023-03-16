@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+body{
+    background-color: #F7D62D;
+}
+
+.nome{
+    position: absolute;
+    width: 812px;
+    height: 144px;
+    left: 15px;
+    top: 813px; 
+    font-family: 'Rubik Mono One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: -0.023em;
+}
