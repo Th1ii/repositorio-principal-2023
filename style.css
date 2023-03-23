@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+
 body{
     background-color: #F7D62D;
 }
@@ -16,4 +19,241 @@ body{
     line-height: 150%;
     text-align: center;
     letter-spacing: -0.023em;
+    color: #1E1E1E;
+}
+
+.bolo{
+    position: absolute;
+    width: 72.95px;
+    height: 100px;
+    left: 776.19px;
+    top: 82px;
+}
+
+.bolo-escrita{
+    position: absolute;
+    width: 221.76px;
+    height: 60px;
+    left: 877.58px;
+    top: 90.45px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 150%;
+    letter-spacing: -0.022em;
+    
+    color: #1E1E1E;    
+}
+
+.localização{
+    position: absolute;
+    width: 61.27px;
+    height: 84px;
+    left: 776.19px;
+    top: 252px;
+}
+
+.localização-escrita{
+    position: absolute;
+    width: 305.65px;
+    height: 120px;
+    left: 877.58px;
+    top: 250.45px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 150%;
+    letter-spacing: -0.022em;
+    
+    color: #1E1E1E;    
+}
+
+.link{
+        color:#1E1E1E;
+        text-decoration:none;
+}
+
+.email{
+    position: absolute;
+    width: 61.27px;
+    height: 84px;
+    left: 774px;
+    top: 419px;
+}
+
+.email-escrita{
+    position: absolute;
+    width: 562px;
+    height: 48px;
+    left: 878px;
+    top: 412px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 150%;
+    letter-spacing: -0.022em;
+    
+    color: #1E1E1E;    
+}
+
+.telefone{
+    position: absolute;
+    width: 46.69px;
+    height: 64px;
+    left: 776.19px;
+    top: 586px; 
+      
+}
+
+.telefone-escrita{
+    position: absolute;
+    width: 325px;
+    height: 60px;
+    left: 878px;
+    top: 550px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 150%;
+    letter-spacing: -0.022em;
+    
+    color: #1E1E1E;
+    
+        
+}
+
+.sobremim{
+    
+    position: absolute;
+    width: 1056px;
+    height: 96px;
+    left: 78px;
+    top: 1000px;
+    
+    font-family: inter;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 150%;
+    letter-spacing: -0.022em;
+    z-index: 4;
+    
+    color: #000000;
+}
+
+.resumo{
+    position: absolute;
+    width: 1298px;
+    height: 370px;
+    left: 57px;
+    top: 1130px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 150%;
+    letter-spacing: -0.022em;
+    z-index: 4;
+    
+    color: #000000;
+}
+
+.tres{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 1405px;
+    height: 574px;
+    left: 17px;
+    top: 1021px;
+    
+    background: #000000;
+    border: 1px solid #000000;
+    border-radius: 12px;
+    
+    z-index: 2;
+}    
+
+.tres2{
+    box-sizing: border-box;
+
+    position: relative;
+    width: 1372px;
+    height: 537px;
+    left: 20px;
+    top: 300px;
+    
+    background: #FFFFFF;
+    border: 1px solid #E6E6E6;
+    border-radius: 12px;
+    
+    z-index: 3;
+}
+
+.hobbies{
+    /* Hobbies */
+
+    position: absolute;
+    width: 1056px;
+    height: 96px;
+    left: 64px;
+    top: 1629px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 150%;
+    letter-spacing: -0.022em;
+
+    color: #000000;
+}
+
+.hobbies-itens{
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    justify-content: space-around;
+}
+
+.hobbie{
+    background: rgb(255, 255, 255);
+    width: 400px;
+    margin-top: 0px;
+    line-height: 120px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+    border-radius: 100px;
+}
+
+.hobbies-icons{
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    justify-content: space-around;
+}
+
+.hobbie-icon{
+    mix-blend-mode: darken;
+    margin-top: 550px;
+    line-height: 200px;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+    border-radius: 100px;
 }
