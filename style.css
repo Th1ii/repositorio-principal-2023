@@ -163,6 +163,7 @@ body{
     line-height: 150%;
     letter-spacing: -0.022em;
     z-index: 4;
+    justify-content: space-around;
     
     color: #000000;
 }
